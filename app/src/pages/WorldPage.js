@@ -3,7 +3,7 @@ import Header from "../components/Header"
 
 const WorldPage = ({allCountryData}) => {
     return (
-        <div>
+        <div className="world-page-container">
             <Header />
             <Card allCountryData={allCountryData} />
         </div>

@@ -1,9 +1,11 @@
+import { Link } from "react-router-dom"
+
 const HeaderMenu = () => {
     return (
-        <ul>
-            <li>各国の感染状況</li>
-            <li>世界の感染状況</li>
-        </ul>
+        <>
+            <Link to='/'>各国の感染状況</Link>
+            <Link to='/world'>世界の感染状況</Link>
+        </>
     )
 }
 
