@@ -2,13 +2,14 @@ import Header from "../components/Header"
 import Result from "../components/Result"
 import Selector from "../components/Selector"
 
-const TopPage = (props) => {
-    const {countriesJson, setCountry, getCountryData, countryData} = props
+const TopPage = ({countriesJson, setCountry, countryData, loading}) => {
     return (
         <div className="top-page-container">
-            <Header/>
-            <Selector countriesJson={countriesJson} setCountry={setCountry} getCountryData={getCountryData}/>
-            <Result countryData={countryData}/>
+            <div>
+                <Header/>
+                <Selector countriesJson={countriesJson} setCountry={setCountry} />
+                <Result countryData={countryData} loading={loading}/>
+            </div>
         </div>
     )
 }

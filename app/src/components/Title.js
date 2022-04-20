@@ -1,3 +1,3 @@
-const Title = () => <h1>Covid Tracker</h1>
+const Title = () => <div><h1>Covid Tracker</h1></div>
 
 export default Title
