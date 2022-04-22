@@ -1,6 +1,7 @@
 import Loading from "./Loading"
+import { ResultType } from "../types"
 
-const Result = ({countryData, loading}) => {
+const Result = ({countryData, loading}: ResultType) => {
     const { date, newConfirmed, totalConfirmed, newRecovered, totalRecovered } = countryData
     return (
         <div className="result-container">
