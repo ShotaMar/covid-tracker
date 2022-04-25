@@ -190,7 +190,7 @@ h1 {
     padding: 4rem 3rem;
     background: linear-gradient(250.6deg, #6A70FF 7.3%, rgba(255, 53, 53, 0.4) 98.63%);
     background-size: 300% 300%;
-  /* 	animation: gradient 14s ease infinite; */
+  	animation: gradient 14s ease infinite;
 }
 
 .card-container {
